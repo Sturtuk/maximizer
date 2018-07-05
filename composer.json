@@ -1,0 +1,32 @@
+{
+    "name": "maximizer/laravel-slack-events-api",
+    "description": "Slack Events API for Laravel 5",
+    "keywords": ["slack", "laravel", "api", "slack api", "slack events api", "events", "slack events"],
+    "require": {
+        "laravel/framework": "5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sturt\\Maximizer\\LaravelSlackEvents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sturt\\Maximizer\\LaravelSlackEvents\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sturt\\Maximizer\\LaravelSlackEvents\\SlackEventsServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sturt",
+            "email": "hello@edwinsturt.in"
+        }
+    ]
+}
