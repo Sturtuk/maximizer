@@ -1,5 +1,5 @@
 {
-    "name": "maximizer/slack-events-api",
+    "name": "Sturt/maximizer",
     "description": "Slack Events API for Laravel 5",
     "keywords": ["slack", "laravel", "api", "slack api", "slack events api", "events", "slack events"],
     "require": {
@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sturt\\Maximizer\\LaravelSlackEvents\\SlackEventsServiceProvider"
+                "Sturt\\Maximizer\\SlackEventsServiceProvider"
             ]
         }
     },
@@ -28,5 +28,8 @@
             "name": "Sturt",
             "email": "hello@edwinsturt.in"
         }
-    ]
+    ],
+    "require-dev": {
+        "maximizer/slack-events-api": "^1.0"
+    }
 }
