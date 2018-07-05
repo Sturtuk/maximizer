@@ -1,5 +1,5 @@
 {
-    "name": "maximizer/laravel-slack-events-api",
+    "name": "maximizer/slack-events-api",
     "description": "Slack Events API for Laravel 5",
     "keywords": ["slack", "laravel", "api", "slack api", "slack events api", "events", "slack events"],
     "require": {
