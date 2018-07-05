@@ -1,5 +1,5 @@
 {
-    "name": "Sturt/maximizer",
+    "name": "sturt/maximizer",
     "description": "Slack Events API for Laravel 5",
     "keywords": ["slack", "laravel", "api", "slack api", "slack events api", "events", "slack events"],
     "require": {
@@ -7,12 +7,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sturt\\Maximizer\\LaravelSlackEvents\\": "src/"
+            "Sturt\\Maximizer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sturt\\Maximizer\\LaravelSlackEvents\\Tests\\": "tests/"
+            "Sturt\\Maximizer\\Tests\\": "tests/"
         }
     },
     "extra": {
